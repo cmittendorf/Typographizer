@@ -35,9 +35,9 @@
 
 /* Begin PBXFileReference section */
 		2743A51F1ECF2A8D007B030B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Typographizer-macOS/Info.plist"; sourceTree = SOURCE_ROOT; };
-		2743A5201ECF2A8D007B030B /* String+Typographizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Typographizer.swift"; path = "Sources/String+Typographizer.swift"; sourceTree = SOURCE_ROOT; };
+		2743A5201ECF2A8D007B030B /* String+Typographizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Typographizer.swift"; path = "Typogarphizer/String+Typographizer.swift"; sourceTree = SOURCE_ROOT; };
 		2743A5211ECF2A8D007B030B /* Typographizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Typographizer.h; path = "Typographizer-macOS/Typographizer.h"; sourceTree = SOURCE_ROOT; };
-		2743A5221ECF2A8D007B030B /* Typographizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Typographizer.swift; path = Sources/Typographizer.swift; sourceTree = SOURCE_ROOT; };
+		2743A5221ECF2A8D007B030B /* Typographizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Typographizer.swift; path = Typogarphizer/Typographizer.swift; sourceTree = SOURCE_ROOT; };
 		275F69AF1FA0D9E0009F9BE7 /* Typographizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Typographizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		275F69B11FA0D9E0009F9BE7 /* Typographizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Typographizer.h; sourceTree = "<group>"; };
 		275F69B21FA0D9E0009F9BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		2778DEB51E79AFB2001078C0 = {
 			isa = PBXGroup;
 			children = (
-				BF3D89231ECDCC8100E1AC1B /* Typographizer */,
+				70551BDA2117098600D88A20 /* Typogarphizer */,
 				BF3D89141ECDCBD000E1AC1B /* TypographizerTests */,
 				275F69EA1FA0E2AA009F9BE7 /* Typographizer-macOS */,
 				275F69B01FA0D9E0009F9BE7 /* Typographizer-iOS */,
@@ -154,6 +154,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		70551BDA2117098600D88A20 /* Typogarphizer */ = {
+			isa = PBXGroup;
+			children = (
+				2743A5221ECF2A8D007B030B /* Typographizer.swift */,
+				2743A5201ECF2A8D007B030B /* String+Typographizer.swift */,
+			);
+			path = Typogarphizer;
+			sourceTree = "<group>";
+		};
 		BF3D89141ECDCBD000E1AC1B /* TypographizerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,15 +170,6 @@
 				BF3D89171ECDCBD000E1AC1B /* Info.plist */,
 			);
 			path = TypographizerTests;
-			sourceTree = "<group>";
-		};
-		BF3D89231ECDCC8100E1AC1B /* Typographizer */ = {
-			isa = PBXGroup;
-			children = (
-				2743A5201ECF2A8D007B030B /* String+Typographizer.swift */,
-				2743A5221ECF2A8D007B030B /* Typographizer.swift */,
-			);
-			path = Typographizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
